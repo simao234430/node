@@ -9,7 +9,7 @@ async function process(id) {
   //console.log(users_data.data); 
   // const title = await getTitle(id)
   // console.log(title)
-  var info={"title":title_data.data.title,"username":users_data.data.username};
+  var info={"album_title":title_data.data.title,"user_name":users_data.data.username};
   return info;
 };
 
